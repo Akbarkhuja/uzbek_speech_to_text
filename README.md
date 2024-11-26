@@ -147,7 +147,7 @@ Sets the table name for saving YouTube transcriptions.
 
 ## **Usage Example**
 ```python
-# Input: List of YouTube URLs and audio file paths
+from uzbek_speech_to_text_converter import STT_Pipeline# Input: List of YouTube URLs and audio file paths
 inputs = ["https://youtu.be/example", "/path/to/audio.mp3"]
 
 # Initialize the pipeline
