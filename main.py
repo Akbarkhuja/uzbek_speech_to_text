@@ -8,7 +8,7 @@ import argparse
 
 
 def main():
-    os.environ["HOME"] = "some_stt_api"
+    os.environ["STT_API"] = "some_stt_api"
 
     # Create an ArgumentParser object
     parser = argparse.ArgumentParser(description="Parse a file path and a partition number.")
