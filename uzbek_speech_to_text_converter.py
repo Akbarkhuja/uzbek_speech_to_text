@@ -209,7 +209,7 @@ class STT_Pipeline:
         buffer = arr.tobytes()
         
         files = {'audio': buffer}
-        key = "HOME"
+        key = "STT_API"
         api_env = getenv(key)
         response = requests.post(api_env, files=files)
 
