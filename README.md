@@ -32,7 +32,7 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
     
 - **Requirements:**
   ```console
-  pip install requirements.txt
+  pip install -r requirements.txt
   ```
 - **Export the environment variable:**
   - set the STT_API environment variable, which stores the URL of your STT API
