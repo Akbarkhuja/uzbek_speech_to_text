@@ -11,7 +11,7 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
 
 ## **Prerequisites**
 - **Installation of Apache Spark and PySpark:**
-  - [Installation Guide](https://www.datacamp.com/tutorial/installation-of-pyspark)
+  - [Installation Guide](https://medium.com/@agusmahari/pyspark-step-by-step-guide-to-installing-pyspark-on-linux-bb8af96ea5e8)
 
 - **PostgreSQL:**
   - [Installation Guide](https://gcore.com/learning/how-to-install-pgadmin4-on-ubuntu/)
