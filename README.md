@@ -40,9 +40,9 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
     export STT_API=some_stt_api_url
     ```
   - check
-  ```console
-  echo $STT_API
-  ```
+    ```console
+    echo $STT_API
+    ```
 ---
 
 ## **Class Initialization**
