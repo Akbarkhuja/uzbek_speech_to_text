@@ -9,6 +9,30 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
 
 ---
 
+## **Prerequisites**
+- **Installation of Apache Spark and PySpark:**
+  - [An Internal Link](https://www.datacamp.com/tutorial/installation-of-pyspark)
+- **PostgreSQL:**
+  - in the same database create 2 table:
+    ``` sql
+CREATE TABLE demo_stt_result_save (
+    audio_path TEXT NOT NULL,          -- Source of the audio file
+    transcription TEXT NOT NULL    -- Transcribed text
+);
+```
+``` sql
+CREATE TABLE youtube_audio_to_text (
+    youtube TEXT NOT NULL,          -- Source of the audio file
+  absolute_path TEXT NOT NULL, 
+    transcription TEXT NOT NULL    -- Transcribed text
+);
+```
+- **Requirements:**
+  ```console
+  pip install requirements.txt
+  ```
+---
+
 ## **Class Initialization**
 ```python
 from uzbek_speech_to_text_converter import STT_Pipeline
