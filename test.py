@@ -15,7 +15,7 @@ youtube_urls = [
 ]
 os.environ["STT_API"] = "some_stt_api"
 
-path = 'telegram_audio/' # put your dir path 
+path = input("Enter the path with audio files: ") # put your dir path 
 inputs = [path + f for f in listdir(path) if isfile(join(path, f))]
 
 inputs.extend(youtube_urls)
