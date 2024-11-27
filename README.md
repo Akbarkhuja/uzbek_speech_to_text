@@ -14,7 +14,7 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
   - [Installation Guide](https://www.datacamp.com/tutorial/installation-of-pyspark)
 
 - **PostgreSQL:**
-  - in the same database create 2 table:
+  - in the same database create 2 tables:
     ``` sql
     CREATE TABLE demo_stt_result_save (
     audio_path TEXT NOT NULL,          -- Source of the audio file
