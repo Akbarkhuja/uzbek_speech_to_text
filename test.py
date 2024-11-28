@@ -13,8 +13,6 @@ youtube_urls = [
     "https://www.youtube.com/watch?v=TLuaTrYh7Pk",
     "https://www.youtube.com/watch?v=4ymODZahOc4"
 ]
-os.environ["STT_API"] = "some_stt_api"
-
 path = input("Enter the path with audio files: ") # put your dir path 
 inputs = [path + f for f in listdir(path) if isfile(join(path, f))]
 
