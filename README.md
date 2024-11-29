@@ -23,6 +23,10 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
     export SPARK_HOME=/opt/spark
     ```
     Everything else should be according to the instructions
+- **Installation of ffmpeg:**
+-   ``` console
+    sudo apt install ffmpeg
+    ```    
     
 - **PostgreSQL:**
   - Go the [page](https://www.postgresql.org/download/), choose your Linux distribution and follow the instructions
