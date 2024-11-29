@@ -57,6 +57,15 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
     ```
     
 - **Requirements:**
+- open a new window of terminal and lauch the following command:
+  ```console
+  git clone https://github.com/Akbarkhuja/uzbek_speech_to_text.git
+  ```
+- Enter the directory:
+  ``console
+  cd uzbek_speech_to_text
+  ```
+  - install the requirements:
   ```console
   pip install -r requirements.txt
   ```
@@ -69,6 +78,10 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
     ```console
     echo $STT_API
     ```
+- **Launch:**
+  ``` console
+  python test.py
+  ```
 ---
 
 ## **Class Initialization**
