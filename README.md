@@ -14,8 +14,23 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
   - [Installation Guide](https://www.datacamp.com/tutorial/installation-of-pyspark)
 
 - **PostgreSQL:**
-  - [Installation Guide](https://gcore.com/learning/how-to-install-pgadmin4-on-ubuntu/)
-  - 
+  - Go the [page](https://www.postgresql.org/download/), choose your Linux distribution and follow the instructions
+  - create a user the name "postgres" and with the password "postgres"
+    ``` console
+    sudo su - postgres
+    ```
+    
+  - start PostgreSQL:
+    ``` console
+    psql
+    ```
+  
+  - start the user:
+    ``` console
+    \du
+    ```
+  - create a database with the name "my
+    
   - in the same database create 2 tables:
     ``` sql
     CREATE TABLE demo_stt_result_save (
