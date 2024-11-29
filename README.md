@@ -62,13 +62,15 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
   git clone https://github.com/Akbarkhuja/uzbek_speech_to_text.git
   ```
 - Enter the directory:
-  ``console
+  ```console
   cd uzbek_speech_to_text
   ```
+  
   - install the requirements:
   ```console
   pip install -r requirements.txt
   ```
+  
 - **Export the environment variable:**
   - set the STT_API environment variable, which stores the URL of your STT API
     ```console
