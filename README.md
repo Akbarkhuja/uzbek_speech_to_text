@@ -16,14 +16,18 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
 - **PostgreSQL:**
   - Go the [page](https://www.postgresql.org/download/), choose your Linux distribution and follow the instructions
     
-  - create a user the name "postgres" and with the password "postgres"
+  - start PostgreSQL:
     ``` console
     sudo su - postgres
     ```
     
-  - start PostgreSQL:
     ``` console
     psql
+    ```
+  
+  - create a user the name "postgres" and with the password "postgres":
+    ``` console
+    alter user postgres with password 'postgres'; 
     ```
   
   - start the user:
@@ -225,6 +229,15 @@ pipeline.save()
 df = pipeline.toPandas()
 print(df.head())
 ```
+
+- Also execute test.py in the directory of the project:
+  ``` console
+  python test.py
+  ```
+  
+  and see the result by executing the following commands by lauching postgres:
+  ```
+  
 
 ---
 
