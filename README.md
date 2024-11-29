@@ -15,6 +15,7 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
 
 - **PostgreSQL:**
   - Go the [page](https://www.postgresql.org/download/), choose your Linux distribution and follow the instructions
+    
   - create a user the name "postgres" and with the password "postgres"
     ``` console
     sudo su - postgres
@@ -29,7 +30,11 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
     ``` console
     \du
     ```
-  - create a database with the name "my
+    
+  - create a database with the name "myaudios_path"
+    ``` console
+    create database myaudios_path;
+    ```
     
   - in the same database create 2 tables:
     ``` sql
