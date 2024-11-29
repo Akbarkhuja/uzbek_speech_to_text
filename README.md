@@ -264,6 +264,7 @@ print(df.head())
   and see the result by executing the following commands by lauching postgres:
   ```
   - start PostgreSQL:
+  
     ``` console
     sudo su - postgres
     ```
@@ -273,6 +274,7 @@ print(df.head())
     ```
   
   - create a user the name "postgres" and with the password "postgres":
+  
     ``` console
     alter user postgres with password 'postgres'; 
     ```
