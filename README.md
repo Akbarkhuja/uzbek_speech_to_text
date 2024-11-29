@@ -12,6 +12,7 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
 ## **Prerequisites**
 - **Installation of Apache Spark and PySpark:**
   - [Installation Guide](https://www.datacamp.com/tutorial/installation-of-pyspark)
+    
     go to the Linux installatiob and skip parts from 7 - 9 in Java JDK installation.
     Also after 6 step in "Installing Spark, move your spark directory to the "/opt/spark":
     ``` console
