@@ -237,7 +237,32 @@ print(df.head())
   
   and see the result by executing the following commands by lauching postgres:
   ```
+  - start PostgreSQL:
+    ``` console
+    sudo su - postgres
+    ```
+    
+    ``` console
+    psql
+    ```
   
+  - create a user the name "postgres" and with the password "postgres":
+    ``` console
+    alter user postgres with password 'postgres'; 
+    ```
+  
+  - start the user:
+    ``` console
+    \du
+    ```
+  - check the results:
+    ``` console
+    select * from demo_stt_result_save;
+    ```
+
+    ``` console
+    select * from youtube_audio_to_text;
+    ```
 
 ---
 
