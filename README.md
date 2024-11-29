@@ -76,8 +76,16 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
   ```console
   cd uzbek_speech_to_text
   ```
+- create a virtual envirenment:
+  ``` console
+  python3 -m menv env
+  ```
+  and activate it:
+  ``` console
+  source env/bin/activate
+  ```
   
-  - install the requirements:
+- install the requirements:
   ```console
   pip install -r requirements.txt
   ```
