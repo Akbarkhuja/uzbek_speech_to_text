@@ -262,7 +262,7 @@ print(df.head())
   ```
   
   and see the result by executing the following commands by lauching postgres:
-  ```
+  
   - start PostgreSQL:
   
     ``` console
