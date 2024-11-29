@@ -74,7 +74,7 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
 - **Export the environment variable:**
   - set the STT_API environment variable, which stores the URL of your STT API
     ```console
-    export STT_API=some_stt_api_url
+    export STT_API=your_stt_api_url
     ```
   - check
     ```console
