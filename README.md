@@ -10,6 +10,23 @@ The `STT_Pipeline` class processes audio files and YouTube videos for speech-to-
 ---
 
 ## **Prerequisites**
+- **Java Installation:**
+  - Go to [Download Java JDK](https://www.oracle.com/java/technologies/downloads/) and copy the link for your Operation System
+  - ``` console
+    cd Downloads
+    ```
+    
+  - ``` console
+    wget [copied_path]
+    ```
+    
+  - ``` console
+    sudo dpkg -i [downloaded file]
+    ```
+  - check
+    ``` console
+    java --version
+    ```
 - **Installation of Apache Spark and PySpark:**
   - [Installation Guide](https://www.datacamp.com/tutorial/installation-of-pyspark)
     
